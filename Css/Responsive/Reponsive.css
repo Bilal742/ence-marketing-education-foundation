@@ -1,0 +1,318 @@
+@media only screen and (max-width: 1060px) {
+
+    /* Navigation Bar */
+    #navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* Navigation Bar list styling */
+    #navbar ul li {
+        font-size: 12px;
+    }
+
+    #navbar ul li a {
+        padding: 4px 13px;
+        border: 0px solid white;
+        border-radius: 0px;
+    }
+
+    #home p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 17px;
+    }
+
+    /* services section  */
+    #services {
+        flex-direction: column;
+    }
+
+    #services h1 {
+        padding-bottom: 0em;
+    }
+
+    .iteam p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img img {
+        margin: auto;
+        height: 300px;
+        max-width: 85%;
+    }
+
+    /* Volunteers Section */
+    #Volunteers-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 999%;
+    }
+
+    #Volunteers-container::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 102%;
+        width: 100%;
+        background-color: #250e62;
+        z-index: -1;
+
+    }
+
+    .Volunteers-iteam p {
+        color: white;
+        margin-top: 23px;
+        font-size: 1.4rem;
+        font-weight: lighter;
+    }
+
+    #Volunteers img {
+        display: block;
+        margin: 28px auto;
+        height: 92px;
+        width: 92px;
+    }
+
+    .Volunteers-iteam {
+        padding-left: 28px;
+    }
+
+    .Volunteers-iteam h1 {
+        text-align: center;
+    }
+
+    .Volunteers-iteam p {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .button {
+        display: block;
+        margin: auto;
+    }
+
+    /* Footer Section */
+    #footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer p {
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    #footer h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .footer-iteam-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:620px) {
+
+      /* Navigation Bar */
+      #navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* Navigation Bar list styling */
+    #navbar ul li {
+        font-size: 8px;
+    }
+
+    #navbar ul li a {
+        padding: 4px 6px;
+        border: 0px solid white;
+        border-radius: 0px;
+    }
+
+    #home p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    /* services section  */
+    #services {
+        flex-direction: column;
+    }
+
+    #services h1 {
+        padding-bottom: 0em;
+    }
+
+    .iteam p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img img {
+        margin: auto;
+        height: 300px;
+        max-width: 85%;
+    }
+
+    /* Volunteers Section */
+    #Volunteers-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 999%;
+    }
+
+    #Volunteers-container::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 102%;
+        width: 100%;
+        background-color: #250e62;
+        z-index: -1;
+
+    }
+
+    .Volunteers-iteam p {
+        color: white;
+        margin-top: 23px;
+        font-size: 1.4rem;
+        font-weight: lighter;
+    }
+
+    #Volunteers img {
+        display: block;
+        margin: 28px auto;
+        height: 92px;
+        width: 92px;
+    }
+
+    .Volunteers-iteam {
+        padding-left: 28px;
+    }
+
+    .Volunteers-iteam h1 {
+        text-align: center;
+    }
+
+    .Volunteers-iteam p {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .button {
+        display: block;
+        margin: auto;
+    }
+
+    /* Footer Section */
+    #footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer p {
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #footer h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .footer-iteam-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #corporate img {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #home p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+
+    #navbar ul li a {
+        padding: 4px  3px;
+        border: 0px solid white;
+        border-radius: 0px;
+    }
+
+    .h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #250e62;
+        font-size: 1.9rem;
+        font-weight: bolder;
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width:1478px) {
+
+    /* corporate Section */
+    #corporate img {
+        margin-top: 28px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+
+    /* corporate Section */
+    #corporate img {
+        margin-top: 28px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+
+    /* corporate Section */
+    #corporate img {
+        margin-top: 28px;
+        height: 208px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    /* corporate Section */
+    #corporate img {
+        margin-top: 28px;
+        height: 150px;
+    }
+}
