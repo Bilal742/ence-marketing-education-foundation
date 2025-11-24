@@ -41,7 +41,6 @@ It showcases marketing education, initiatives, programs, and community engagemen
 
 - **HTML5**  
 - **CSS3**  
-- **JavaScript**  
 - **Google Fonts**  
 - **Font Awesome Icons**
 
